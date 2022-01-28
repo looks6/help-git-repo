@@ -3,7 +3,7 @@ entries:
   gitrepotest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-28T15:33:38.325555527+01:00"
+    created: "2022-01-28T15:40:32.063431513+01:00"
     description: A Helm chart to git repo
     digest: c9508f4607f9560573958791f02d18e1be19cdff11152bd4bfdd9185421b4616
     name: gitrepotest
@@ -11,4 +11,26 @@ entries:
     urls:
     - gitrepotest-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-28T15:33:38.324517417+01:00"
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-28T15:40:32.064069119+01:00"
+    description: A chart on Chartmuseum Version 0.1.1
+    digest: c1b3a9c8f021ba91d2dd4570c97d503de76a25b99ebd2f577447f1efae6e3214
+    name: mychart
+    type: application
+    urls:
+    - mychart-0.1.1.tgz
+    version: 0.1.1
+  mychartOld:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-28T15:40:32.064354122+01:00"
+    description: A Helm chart to Chartmusem over push
+    digest: ef21b1daa7d59c0d9e1d93434304e7af40da2012883f0a9158dce9ccb834adfc
+    name: mychartOld
+    type: application
+    urls:
+    - mychartOld-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-01-28T15:40:32.062605206+01:00"
